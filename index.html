@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi challege</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link class="icono" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css">
+
+</head>
+<body class="body">
+    <header>
+        <img src="./asset/Logo.png" class="logo"alt="LogoDeLaPagina">
+    </header>
+        <main>
+            <section>
+                <textarea cols="30" rows="10" class="text-area" placeholder="Ingrese el Texto a encriptar"></textarea>
+                <div>
+                    <h6 class="informacion"><i class="bi bi-exclamation-circle-fill"></i>Solo letras minúsculas y sin acentos</h6>
+                </div>
+                <div class="botones">
+                    <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                    <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+                </div>
+            </section>
+            <section>
+                <textarea cols="20" rows="10" class="mensaje" ></textarea>
+                    <p></p>
+                <div>
+                    <button class="copiar oculto">copiar</button>
+                </div>
+            </section>
+        </main>
+<script src="./script.js"></script>
+</body>
+<footer>
+    <p class="footer">Carlos Piña 14/08/2024</p>
+</footer>
+</html>
